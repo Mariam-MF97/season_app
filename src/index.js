@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SeasonDisplay from "./SeasonDisplay";
+import SeasonDisplay from "./components/seasonDisplay/SeasonDisplay";
 import "semantic-ui-css/semantic.min.css";
-import Spinner from "./Spinner";
+import Spinner from "./components/spinner/Spinner";
 
 class App extends React.Component {
   state = { lat: null, errorMessage: "" };
